@@ -1,0 +1,122 @@
+#main {
+    margin-top: 1rem;
+}
+
+/* Sidebar  */
+#sidebar-icons {
+    white-space: nowrap;
+    overflow-x: auto;
+
+}
+
+#sidebar-icons img {
+    width: 4rem;
+    background-color: #CDF0EA;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+#sidebar-icons img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    #primary-container {
+        padding: 0;
+    }
+
+    #tnhbLogo {
+        width: 100%;
+        height: auto;
+    }
+
+    #tnhbLogoContainer {
+        width: 60%;
+        height: auto;
+    }
+
+    #nav-toggle {
+        padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    }
+
+    #offcanvas-body {
+        max-height: 15%;
+        padding: 0;
+    }
+
+    #module a {
+        background-color: #CDF0EA;
+        text-decoration: none;
+        height: 90%;
+        width: 100%;
+        color: black;
+    }
+
+    #sidenav-content {
+        background-color: #F6F6F6;
+        margin: 1rem 1rem 0 1rem;
+        border-radius: 0.5rem;
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+    #primary-container {
+        max-width: 100vw;
+    }
+
+    #main {
+        max-width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) {
+    #primary-container {
+        max-width: 70%;
+        padding: 0;
+    }
+
+    #tnhbLogoContainer {
+        padding: 0;
+        width: 30%;
+    }
+
+    #sidebar-container {
+        width: 30%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+    }
+
+    #sidenav-content {
+        background-color: #F6F6F6;
+        margin: 1rem 1rem 0 1rem;
+        border-radius: 0.5rem;
+        padding: 1rem;
+    }
+
+    #module a {
+        background-color: #CDF0EA;
+        text-decoration: none;
+        height: 90%;
+        width: 100%;
+        color: black;
+    }
+
+}
+
+@media screen and (min-width: 1685px) {
+    .scrollmenu {
+        width: 100%;
+        letter-spacing: 1rem;
+    }
+
+}
